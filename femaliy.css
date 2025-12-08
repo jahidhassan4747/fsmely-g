@@ -1,0 +1,82 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    margin: auto;
+    background-color:darkblue;
+    max-width: 1000px;
+    min-width: none;
+    position: relative
+}
+.lojick{
+    background-color: rgba(145, 13, 101, 0.407);
+    border-radius: 10px;
+}
+.headar{
+    display: flex;
+    padding: 0.5rem;
+}
+.img11{
+    border-radius: 50%;
+}
+.text{
+    font-size: 1.5rem;
+    color: rgba(0, 255, 255, 0.526);
+    padding: 0.5rem;
+    align-content: end;
+}
+nav{
+    position: absolute;
+    right:30px;
+    font-size: 1.5rem;
+    margin:0.6rem ;
+}
+a{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 5px;
+    text-decoration: none;
+    transition: 0.4s 0.3s;
+    color:whitesmoke;
+}
+.houm{
+    display: inline-block;
+    margin-top: 1.5rem;
+}
+@media (max-width:750px){
+    nav {
+        display: none;
+    }
+    .fhonmenu{
+        display: flex;
+        width:20px;
+        height:20px;
+        overflow:hidden ;
+        background-color: rgba(213, 38, 210, 0.579);
+        border-top-right-radius:50px ;
+        padding-left: 5px;
+        padding-bottom: 5px;
+        transition:2.4s ;
+    }
+    .fhonmenu:hover{
+        overflow: none;
+        display: inline-block;
+        width:150px;
+        height: 300px;
+    }
+    .gropulogo{
+        width:750px;
+        height:auto;
+    }
+}
+.gropulogo{
+    position: absolute;
+    max-width:1000px;
+    background-repeat: cover;
+    height:auto;
+    aspect-ratio: 8/8;
+    object-fit: cover;
+}
